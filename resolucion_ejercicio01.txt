@@ -1,3 +1,4 @@
-1- docker pull alanerm87/ejercicio01:1.0.0
-2- docker run --name ejercicio01 -d -p 80:80 alanerm87/ejercicio01:1.0.0
+1- siendo que el file esta en C:\Users\alane\OneDrive\Escritorio\data\index.html
+correr
+2- docker run --name nginxej01 -v C:/Users/alane/OneDrive/Escritorio/data/:/usr/share/nginx/html/ -p 80:80 nginx
 3- browse localhost:80
